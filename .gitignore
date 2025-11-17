@@ -1,0 +1,43 @@
+# --- Python / Flask ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+myenv/
+
+# Environment variables
+.env
+
+# Uploaded images (face uploads, covers, outputs)
+pictures/uploads/
+pictures/out/
+
+
+# PDF outputs
+*.pdf
+
+# Old junk folder
+old/
+
+# OS metadata files
+.DS_Store
+
+# Bytecode + cache
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+.cache/
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+
+# Jinja2 cache
+**/__pycache__/
+instance/

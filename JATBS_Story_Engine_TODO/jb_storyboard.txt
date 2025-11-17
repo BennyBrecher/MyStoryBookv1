@@ -1,0 +1,182 @@
+🌱 MASTER PROJECT BRIEFING PROMPT (Using This on you to Prime Before Generating my 12 Pages)
+
+**PROMPT START**
+
+You are assisting with the creation of a 12-page children’s storybook version of Jack and the Beanstalk.
+Your job is to generate 12 **square (1:1), full-bleed storybook illustrations**, each matching a specific scene description I will give you.
+
+This is a storybook template, not a personalized book yet.
+Do **NOT** use any face from the user or reference a child.
+All characters must be generic and simple because a second AI pass will later replace the face.
+So: **minimal facial detail, no identity.**
+
+---
+
+## ✅ **Image Size Requirement (Important)**
+
+For every image you generate:
+**Create a full-bleed square illustration at 2048 × 2048 resolution.**
+(These will later be scaled to 8.5" × 8.5" for printing.)
+
+This requirement must be applied **consistently to all 12 pages** including the cover and tribute page.
+
+---
+
+## 🎨 Art Style You MUST Follow for All 12 Pages
+
+Match this exact style across all pages:
+
+* Warm, nostalgic children’s storybook style
+* Soft earthy watercolor washes over subtle pencil or ink outlines
+* Muted greens, browns, ochres — rustic, cozy, natural palette
+* Rounded shapes, gentle forms, no sharp edges or digital precision
+* Folktale feeling — patterned farmland, rolling hills, hand-painted textures
+* Characters soft and endearing, minimal facial detail
+* Slightly exaggerated proportions for innocence
+* Diffuse watercolor shading (no harsh shadows)
+* Layout like a classic printed picture book
+* Maintain a tender, old-fashioned fairytale mood
+
+This style must stay **identical** from Page 1 to Page 12.
+
+To prevent the over-yellow “AI watercolor slop” look:
+Avoid yellow or sepia color casts
+No beige/mustard overlays or vintage paper tint
+Whites should remain clean and soft, not yellow
+Greens and blues should stay natural, not muted or brownish
+Use balanced, gentle lighting, not overly warm or smoky
+Colors should feel fresh watercolor, not “old photograph”
+
+---
+
+## ✏️ Text Handling
+
+Each page includes a short story sentence placed **inside the illustration**, usually at the bottom, using soft storybook lettering.
+Text must be:
+
+* clear
+* neat
+* not covering important art
+
+---
+
+## 🎯 Output Goal
+
+For each page I give you, produce **one single image** that:
+
+1. Matches the scene description
+2. Uses the style above
+3. Includes the provided text
+4. Keeps the character generic/simple
+5. Matches all other pages stylistically
+6. Is a full-bleed **square** illustration
+7. **Resolution = 2048 × 2048** (required)
+
+---
+
+## 🔁 Consistency You Must Maintain
+
+Across all 12 images:
+
+* character shape, hair color, clothing tone
+* scenery tone and watercolor texture
+* line softness and palette
+* composition style and mood
+
+---
+
+I will provide each page description one at a time.
+For each page, generate exactly **one illustration** following all rules above.
+
+**Are you ready to begin?**
+
+
+
+
+
+(context: i will feed you these one by one soon:
+storyboard of all pages:
+	1.	Cover
+• Scene: Child as Jack in front of a giant beanstalk reaching into the clouds, small farmhouse and fields behind.
+• Text:
+“Jack and the Beanstalk starring [Child Name]”
+	2.	Page 1 — Poor farm life / setup
+• Scene: Child and parent in a small, worn farmhouse, looking worried about empty pantry / few coins.
+• Text:
+“[Child Name] and [their] mother were running out of food on their little farm.”
+	3.	Page 2 — Sent to market with cow
+• Scene: Child leading a gentle cow down a dirt road toward town.
+• Text:
+“One morning, Mama asked [Child Name] to take their cow to market to sell.”
+	4.	Page 3 — Meets bean seller
+• Scene: Mysterious traveler offering a handful of glowing beans, cow in the background.
+• Text:
+“On the way, a strange man offered magic beans in exchange for the cow.”
+	5.	Page 4 — Trade + return home
+• Scene: Child excitedly holding beans, returning home; mother looking shocked/angry at the door.
+• Text:
+“[Child Name] traded the cow for the beans, but Mama was not impressed.”
+	6.	Page 5 — Beans tossed / night
+• Scene: Mother tossing beans out the window; evening sky, farmhouse interior warm behind her.
+• Text:
+“She tossed the beans out the window, certain they were just useless seeds.”
+	7.	Page 6 — Night magic
+• Scene: Outside view of the yard at night; beans on the ground softly glowing under the moon and stars.
+• Text:
+“That night, the strange beans shimmered softly under the moonlight.”
+	8.	Page 7 — Morning – beanstalk revealed
+• Scene: Enormous beanstalk outside the house, reaching into the clouds; child staring up in awe, parent peeking from the doorway.
+• Text:
+“By morning, a giant beanstalk had grown all the way up into the clouds.”
+	9.	Page 8 — Climbing to the sky
+• Scene: Child climbing the beanstalk, farm getting tiny below, fluffy clouds gathering around.
+• Text:
+“Bravely, [Child Name] began to climb higher and higher toward the sky.”
+	10.	Page 9 — Castle in the clouds
+• Scene: Cloud kingdom with a huge castle; child arriving at massive doors or sneaking near the walls.
+• Text:
+“At the top, [Child Name] found a giant’s castle hidden among the clouds.”
+	11.	Page 10 — Inside castle – treasure
+• Scene: Inside the castle hall, giant snoring in the background while child sneaks toward a golden harp and/or goose.
+• Text:
+“Inside, a sleeping giant snored while golden treasures shimmered in the dark.”
+	12.	Page 11 — Giant wakes and chase
+• Scene: Giant waking and thundering after the child; child racing out of the castle toward the beanstalk.
+• Text:
+“When the giant woke up, he roared and thundered after [Child Name].”
+	13.	Page 12 — Escape, chopping the stalk, and new beginning
+• Scene: Child scrambling down the beanstalk; at the bottom, parent chopping it with an axe; in the next moment, farm shown brighter with treasure (harp/goose) and beanstalk stump visible.
+• Text:
+“[Child Name] reached the ground just in time, and Mama chopped the beanstalk down. With the giant’s treasure, their little farm soon flourished.”
+	14.	Tribute Page
+• Scene: A warm tribute portrait of the child inside a soft oval frame, centered on the page. Around the oval, a gentle outdoor scene with trees, sky, and colorful flowers in a classic storybook watercolor style.
+• Text:
+“[Child Name] is a brave and imaginative young [boy/girl] whose kindness and courage shine in every adventure. Everyone who loves [Child Name] is very proud.”
+
+
+We’ll let GPT fill in the actual text with good kid-friendly wording, but this is the canonical storyboard.
+)
+
+
+
+
+
+
+
+
+🌿 Improved Style-Injection Prompt (Matches Your Image Perfectly)
+
+“Illustrate in a warm, nostalgic children’s storybook style reminiscent of classic print picture books.
+Use soft, earthy watercolor washes layered over subtle pencil or ink outlines, with muted greens, browns, and ochres that feel cozy and natural.
+Keep all shapes rounded and gentle, avoiding sharp edges or digital-looking precision.
+Give the world a rustic, folktale quality — patterned farmland, rolling hills, and simple textured backgrounds that feel hand-painted.
+Characters should appear soft and endearing, with expressive posture, minimal facial detail, and slightly exaggerated proportions that emphasize innocence.
+Shading should be subtle and diffuse, using watercolor-style gradients instead of hard shadows.
+Overall, aim for a tender, old-fashioned fairytale atmosphere with warm tones, organic edges, and the charm of a well-loved storybook.
+
+Avoid yellow or sepia color casts, mustard washes, and vintage paper tints. 
+Do not use the common AI watercolor look with yellow filters, muddy browns, beige clouds, or dirty paper textures. 
+Use clean, natural colors with balanced lighting and neutral highlights. 
+Keep whites truly white and greens naturally vibrant.
+
+”

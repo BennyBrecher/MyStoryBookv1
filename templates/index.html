@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fairy Tale Generator</title>
+
+  <!-- Google Fonts: load via <link>, not @import -->
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Patrick+Hand&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+</head>
+<body>
+  <div class="storybook-doodle doodle-1">🌟</div>
+  <div class="storybook-doodle doodle-2">🎨</div>
+  <div class="storybook-doodle doodle-3">📖</div>
+  <div class="storybook-doodle doodle-4">🦊</div>
+    
+  <div class="container">
+      <h1>✨ Once Upon A Time ✨</h1>
+      <p class="subtitle">Let's make YOU the star!</p>
+      
+      <form id="storyForm">
+          <label for="faceUpload">
+              <div class="upload-zone" id="uploadZone">
+                  <div class="upload-icon">📸</div>
+                  <div class="upload-text">Drop your photo here!</div>
+                  <div class="upload-subtext">or click to browse</div>
+              </div>
+          </label>
+          <input type="file" id="faceUpload" name="face_image" accept="image/*">
+          
+          <div class="preview-container" id="previewContainer">
+              <img id="previewImage" class="preview-image" alt="Preview">
+              <span class="preview-label">Looking good! 😊</span>
+          </div>
+          
+          <div class="story-selection" id="storySelection">
+              <h2 class="section-title">Pick Your Adventure!</h2>
+              
+              <div class="story-cards">
+                  <input type="radio" name="story" id="littlered" value="littlered" required>
+                  <label for="littlered" class="story-card">
+                      <div class="story-emoji">🧺</div>
+                      <div class="story-name">Little Red Riding Hood</div>
+                      <div class="story-tagline">Into the woods!</div>
+                  </label>
+                  
+                  <input type="radio" name="story" id="jackbeanstalk" value="jackbeanstalk" required>
+                  <label for="jackbeanstalk" class="story-card">
+                      <div class="story-emoji">🌱</div>
+                      <div class="story-name">Jack & the Beanstalk</div>
+                      <div class="story-tagline">Up to the clouds!</div>
+                  </label>
+              </div>
+          </div>
+          
+          <div class="character-details" id="characterDetails">
+              <h2 class="section-title">Tell Us About The Hero!</h2>
+              
+              <div class="name-input-wrapper">
+                  <label for="childName" class="input-label">What's their name?</label>
+                  <input type="text" id="childName" name="child_name" placeholder="Enter name here..." required>
+              </div>
+              
+              <div class="gender-buttons">
+                  <input type="radio" name="gender" id="boy" value="boy" required>
+                  <label for="boy" class="gender-btn">
+                      <div class="gender-emoji">👦</div>
+                      <div class="gender-text">Boy</div>
+                  </label>
+                  
+                  <input type="radio" name="gender" id="girl" value="girl" required>
+                  <label for="girl" class="gender-btn">
+                      <div class="gender-emoji">👧</div>
+                      <div class="gender-text">Girl</div>
+                  </label>
+              </div>
+          </div>
+          
+          <div class="generate-section" id="generateSection">
+              <button type="submit" class="generate-btn">
+                  <span class="btn-sparkle">✨</span>
+                  <span class="btn-text">Create My Story!</span>
+                  <span class="btn-sparkle">✨</span>
+              </button>
+          </div>
+      </form>
+  </div>
+  
+  <script src="{{ url_for('static', filename='main.js') }}" defer></script>
+</body>
+</html>

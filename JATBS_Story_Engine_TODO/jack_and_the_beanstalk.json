@@ -1,0 +1,105 @@
+{
+    "story_id": "jack_and_the_beanstalk",
+    "story_title_template": "Jack and the Beanstalk starring [Child Name]",
+    "description": "Jack and the Beanstalk storyboard for 1 cover, 12 story pages, and 1 tribute page.",
+    "pages": [
+      {
+        "page_number": 1,
+        "id": "cover",
+        "type": "cover",
+        "scene": "Child as Jack in front of a giant beanstalk reaching into the clouds, small farmhouse and fields behind.",
+        "text_template": "Jack and the Beanstalk starring [Child Name]"
+      },
+      {
+        "page_number": 2,
+        "id": "farm_life",
+        "type": "story",
+        "scene": "Child and parent in a small, worn farmhouse, looking worried about an almost empty pantry and a few coins on the table.",
+        "text_template": "[Child Name] and [their] mother were running out of food on their little farm."
+      },
+      {
+        "page_number": 3,
+        "id": "cow_to_market",
+        "type": "story",
+        "scene": "Child leading a gentle cow down a dirt road toward town, with fields and fences on either side.",
+        "text_template": "One morning, Mama asked [Child Name] to take their cow to market to sell."
+      },
+      {
+        "page_number": 4,
+        "id": "bean_seller",
+        "type": "story",
+        "scene": "A mysterious traveler on the roadside offering a handful of glowing beans, with the cow standing in the background.",
+        "text_template": "On the way, a strange man offered magic beans in exchange for the cow."
+      },
+      {
+        "page_number": 5,
+        "id": "trade_and_return",
+        "type": "story",
+        "scene": "Child excitedly holding the beans while returning home, mother at the cottage door looking shocked and upset.",
+        "text_template": "[Child Name] traded the cow for the beans, but Mama was not impressed."
+      },
+      {
+        "page_number": 6,
+        "id": "beans_tossed",
+        "type": "story",
+        "scene": "Inside the cozy farmhouse at evening, mother tossing the beans out of an open window while warm light glows behind her.",
+        "text_template": "She tossed the beans out the window, certain they were just useless seeds."
+      },
+      {
+        "page_number": 7,
+        "id": "night_magic",
+        "type": "story",
+        "scene": "Outside view of the yard at night, the beans lying on the ground and softly glowing under the moon and stars.",
+        "text_template": "That night, the strange beans shimmered softly under the moonlight."
+      },
+      {
+        "page_number": 8,
+        "id": "beanstalk_morning",
+        "type": "story",
+        "scene": "Morning scene with a gigantic beanstalk rising beside the house up into the clouds; child staring up in awe while the parent peeks from the doorway.",
+        "text_template": "By morning, a giant beanstalk had grown all the way up into the clouds."
+      },
+      {
+        "page_number": 9,
+        "id": "climbing_beanstalk",
+        "type": "story",
+        "scene": "Child climbing the beanstalk high above the ground, the tiny farm far below and fluffy clouds gathering around.",
+        "text_template": "Bravely, [Child Name] began to climb higher and higher toward the sky."
+      },
+      {
+        "page_number": 10,
+        "id": "castle_in_clouds",
+        "type": "story",
+        "scene": "Cloud kingdom at the top of the beanstalk with a huge castle; child arriving at the massive doors or sneaking near the castle walls.",
+        "text_template": "At the top, [Child Name] found a giant’s castle hidden among the clouds."
+      },
+      {
+        "page_number": 11,
+        "id": "inside_castle_treasure",
+        "type": "story",
+        "scene": "Inside the great hall of the castle, a sleeping giant snoring in the background while the child sneaks toward a golden harp and a shining goose.",
+        "text_template": "Inside, a sleeping giant snored while golden treasures shimmered in the dark."
+      },
+      {
+        "page_number": 12,
+        "id": "giant_chase",
+        "type": "story",
+        "scene": "The giant waking and roaring, thundering after the child through the castle as the child races toward the beanstalk.",
+        "text_template": "When the giant woke up, he roared and thundered after [Child Name]."
+      },
+      {
+        "page_number": 13,
+        "id": "escape_and_chop",
+        "type": "story",
+        "scene": "Child scrambling down the beanstalk; at the bottom, the parent chopping the stalk with an axe while the beanstalk begins to fall.",
+        "text_template": "[Child Name] reached the ground just in time, and Mama chopped the beanstalk down."
+      },
+      {
+        "page_number": 14,
+        "id": "new_beginning_tribute",
+        "type": "tribute",
+        "scene": "The family farm shown brighter and happier with a golden harp and/or goose nearby, the stump of the beanstalk visible. In the center, a warm portrait-style focus on the child inside a soft oval frame, surrounded by trees, sky, and colorful flowers.",
+        "text_template": "With the giant’s treasure, their little farm soon flourished. [Child Name] is a brave and imaginative young [boy/girl] whose kindness and courage shine in every adventure. Everyone who loves [Child Name] is very proud."
+      }
+    ]
+  }
