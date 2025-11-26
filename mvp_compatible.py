@@ -6,6 +6,8 @@ from openai import OpenAI
 from dotenv import load_dotenv
 from make_pdf import create_pdf
 
+#TODO : make the users uploaded face image into a spinning loading symbol to go along with our percentage bar load
+
 load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 

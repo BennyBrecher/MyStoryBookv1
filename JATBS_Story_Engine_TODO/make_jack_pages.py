@@ -19,7 +19,7 @@ Use clean, natural colors with balanced lighting and neutral highlights.
 Keep whites truly white and greens naturally vibrant.
 """
 
-with open("jack_and_the_beanstalk.json") as f:
+with open("/Users/bennybrecher/CursorAI/MyStory/JATBS_Story_Engine_TODO/jack_and_the_beanstalk.json") as f:
     story = json.load(f)
 
 def fill_text(template: str) -> str:
